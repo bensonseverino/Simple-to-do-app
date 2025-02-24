@@ -1,11 +1,15 @@
+// src/App.js
 import React from "react";
-import TaskList from "./components/TaskList";
+import AddTask from "./components/AddTask";
+import ListTask from "./components/ListTask";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <TaskList />
+      <h1>To-Do List</h1>
+      <AddTask />
+      <ListTask />
     </div>
   );
 }

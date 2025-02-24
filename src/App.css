@@ -25,3 +25,45 @@
 button {
   margin-right: 5px;
 }
+
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.task.completed {
+  background-color: #e0ffe0;
+}
+
+button {
+  margin-left: 5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.task.completed {
+  background-color: #e0ffe0;
+}
+
+button {
+  margin-left: 5px;
+}

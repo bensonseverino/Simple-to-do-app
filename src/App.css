@@ -1,0 +1,27 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.task-item.completed {
+  background-color: #e0ffe0;
+}
+
+.task-item h3 {
+  margin: 0;
+}
+
+.task-item p {
+  margin: 5px 0;
+}
+
+button {
+  margin-right: 5px;
+}
